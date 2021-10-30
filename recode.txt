@@ -1,0 +1,6 @@
+[vivo]
+vivo.xyz
+vivo.cn
+vivo.cn
+[快手]
+kuaishou.com
