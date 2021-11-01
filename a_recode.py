@@ -1,5 +1,6 @@
 #!/usr/bin/python
 import sqlite3
+import os
 
 
 def getrecode():
@@ -50,6 +51,14 @@ def create_init_table():
     conn.commit()
     conn.close()
 
+def create_init_path():
+    init_pathlist = ["/data","/report","/report/csv","/report/json","/report/txt"]
+    for init_path in init_pathlist:
+        path = os.path.dirname(__file__)+init_path
+        if not os.path.exists(path):
+            os.makedirs(path)
+
 
 if __name__ == '__main__':
+    create_init_path()
     create_init_table()
