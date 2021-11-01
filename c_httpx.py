@@ -8,7 +8,7 @@ def get_something_fromdb(obj,flag):
     result = []
     conn = sqlite3.connect('data/main.db')
     c = conn.cursor()
-    flag = c.execute("SELECT domain,{} from INIT_TABLE where {}=0".format(obj,flag))
+    flag = c.execute("SELECT domain,{} from INIT_TABLE where {}=0 limit 10".format(obj,flag))
     for row in flag:
         result.append([row[0],row[1]])
     conn.close()
