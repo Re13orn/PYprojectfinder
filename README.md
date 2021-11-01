@@ -1,6 +1,7 @@
 # PYprojectfinder V0.1
 根据 projectfinder 使用python3集成的胶水项目。
-子域收集+存活判断+漏洞扫描。
+
+主要功能：子域收集+存活判断+漏洞扫描。
 ## 环境安装
 - [subfinder]
 
