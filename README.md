@@ -24,6 +24,7 @@
 - script d 进行漏洞扫描，调用nuclei，数据保存/report/txt目录。
 
 ```angular2html
+git clone https://github.com/Re13orn/PYprojectfinder.git
 python3 a_recode.py
 python3 b_subfinder.py
 python3 c_httpx.py
