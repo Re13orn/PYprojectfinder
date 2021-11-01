@@ -28,6 +28,6 @@ python3 c_httpx.py
 python3 d_nuclei.py
 ```
 
-有任何问题和改进建议，欢迎py :)
+有任何问题和改进建议，欢迎issue|mail py :)
 
 
