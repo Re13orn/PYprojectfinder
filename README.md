@@ -1,5 +1,5 @@
-# projectfinder V0.1
-根据 projectfinder集成的胶水项目。
+# PYprojectfinder V0.1
+根据 projectfinder 使用python3集成的胶水项目。
 ## 环境安装
 - [subfinder]
 
